@@ -1,6 +1,6 @@
 import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
-import { PrismaClient } from 'generated/prisma';
 import { LoginUserDto, RegisterUserDto } from './dto';
+import { PrismaClient } from '@prisma/client';
 
 import * as bcrypt from 'bcrypt';
 
