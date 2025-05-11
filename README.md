@@ -1,4 +1,6 @@
-# AuthOrders MicroService
+# Auth Microservice
+
+Handles user authentication including registration and login using JWT.
 
 ```
 docker compose up -d
